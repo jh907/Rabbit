@@ -1,0 +1,37 @@
+#imagemv {
+    background-color: white;
+    margin: 1% 30% 0% 0%; /* 이미지 위아래에 큰 간격을 줍니다 */
+    width: 80%; /* 원하는 크기로 조정해주세요 */
+    max-width: 100%; /* 최대 너비를 지정할 수도 있습니다 */
+    position: relative;
+    padding: 5% 0 0 0; 
+  }
+  
+#imagemv img {
+    width: 50%;
+    height: auto;
+    display: block;
+}
+    
+#middleset {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    margin: 0% auto;
+   padding: 0 10px;  /* 테스트를 위해 여백을 조정했습니다. 필요에 따라 조정하세요 */
+}
+  
+@font-face {
+    font-family: 'Godo';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff') format('woff');
+}
+
+
+ @font-face {
+   font-family: 'GangwonEduSaeeum_OTFMediumA';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduSaeeum_OTFMediumA.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
