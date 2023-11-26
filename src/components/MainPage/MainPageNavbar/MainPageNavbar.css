@@ -1,0 +1,39 @@
+.header-navbar__container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px 5px 0px;
+}
+
+.main-page-navbar > hr {
+  width: 20%;
+}
+
+.main-page-navbar {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+.header-navbar__item {
+  border: none;
+  background: none;
+  padding: 5px 10px 5px 10px;
+  border-radius: 3rem;
+  font-family: 'GangwonEduSaeeum_OTFMediumA', serif;
+  font-size: 2vw;
+}
+
+.header-navbar__item:hover {
+  color: white;
+  background-color: #7041FF;
+}
+
+@media only screen and (max-width: 768px) {
+  .header-navbar__item {
+    font-size: 4vw;
+  }
+}
+
