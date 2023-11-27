@@ -1,9 +1,11 @@
 import './App.css';
 
-function CATEGORY() {
+
+/* 과생활 */
+function Life() {
   return (
     <div className="App">
-
+    
         <p><button className="button">수강신청은 어떻게 하나요?</button></p>
         <p><button className="button">수강신청 과목은 어떻게 구성되나요?</button></p>
         <p><button className="button">휴학 및 복학에 대해 궁금해요!</button></p>
@@ -20,4 +22,4 @@ function CATEGORY() {
   );
 }
 
-export default CATEGORY;
+export default Life;

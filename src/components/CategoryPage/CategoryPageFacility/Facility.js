@@ -1,6 +1,8 @@
 import './App.css';
 
-function CATEGORY() {
+
+/* 시설 */
+function Facility() {
   return (
     <div className="App">
 
@@ -23,4 +25,4 @@ function CATEGORY() {
   );
 }
 
-export default CATEGORY;
+export default Facility;
