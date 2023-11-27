@@ -1,0 +1,59 @@
+.Activity {
+    text-align: center;
+  }
+.Bachelor {
+    text-align: center;
+  }
+.Benefit {
+    text-align: center;
+  }
+.Facility {
+    text-align: center;
+  }
+.Life {
+    text-align: center;
+  }  
+  
+  /* 기본 버튼 스타일 */
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-family: 'GangwonEduSaeeum_OTFMediumA';
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    min-width: 100px;
+    height: 100px; /* 높이를 자동으로 조절하여 여러 줄에 걸치도록 함 */
+    border: 2px solid #ffffff;
+    color: #000000;
+    background-color: #e8e8e8;
+    border-radius: 20px;
+    white-space: normal; /* 강제 줄 바꿈을 허용 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.2; /* 행의 높이를 조절하여 여러 줄에 걸치도록 함 */
+    box-sizing: border-box; /* padding이 border-box에 포함되도록 함 */
+  }
+    /* 마우스 호버 효과 */
+  .button:hover {
+    background-color: #79a4ff;
+    color: #ffffff;
+  }
+    /* 클릭 효과 */
+  .button:active {
+    background-color: #e8e8e8;
+    border-color: #ffffff;
+    color: #ffffff;
+  }
+  
+
+  /* 질문 폰트 */
+  @font-face {
+    font-family: 'GangwonEduSaeeum_OTFMediumA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduSaeeum_OTFMediumA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
